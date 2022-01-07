@@ -1,27 +1,54 @@
-# Portfolio
+<h1 align="center">
+  🧾<br>Meu Portfólio
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
+<h4 align="center">
+  Portfólio desenvolvido com o intuito de alocar meus projetos.
+</h4>
 
-## Development server
+<h4 align="center">
+  Esse repositório é o projeto antes da build (compilação), o código compilado está no repositório 'lucasfelipeluz.github.io'.
+  <h4 align="center"><a href="https://lucasfelipeluz.github.io/">Clique para ir para o código compilado.</a></h4>
+</h4>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![Resultado final do projeto](https://user-images.githubusercontent.com/65639478/123846487-cc36f500-d8eb-11eb-8158-559c22c63588.png)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h4 align="center"><a href="https://lucasfelipeluz.github.io/">Clique para ver o site.</a></h4>
 
-## Build
+## 📖 Seções
+O site é composto por 5 seções diferentes:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Home:** Na tela de um computador vemos uma ilustração e uma breve apresentação, e na tela Mobile vemos a apresentação com link para download do meu currículo;
+- **Projetos:** Apresenta alguns dos meus projetos com links diretos para o website e código no GitHub;
+- **Conhecimentos:** Apresento minhas habilidades, e o tempo de experiência com cada;
+- **Sobre Mim:** Nessa seção tenho uma descrição dizendo um pouco sobre mim e minha caminhada.;
+- **Contato:** Nessa seção coloquei link direto para algumas redes sociais;
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🔧 Tecnologias utilizadas
+Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
-## Running end-to-end tests
+- Angular;
+- HTML;
+- CSS;
+- TypeScript;
+- FontAwesome;
+- Sass;
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🧟 Autor<br>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/lucasfelipeluz">
+        <img src="https://avatars.githubusercontent.com/lucasfelipeluz" width="100px;" alt="Foto de perfil de Lucas Luz no GitHub"/><br>
+        <sub>
+          <b>Lucas Luz</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
