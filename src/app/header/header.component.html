@@ -1,10 +1,10 @@
 <header>
   <div class="nav-bar">
-    <div class="nav-button">
-      <div class="burger" data-burger="inativo">
-      <div class="burger-button" data-filho-burger="inativo"></div>
-      <div class="burger-button" data-filho-burger="inativo"></div>
-      <div class="burger-button" data-filho-burger="inativo"></div>
+    <div class="nav-button" (click)="navMenu()" #navButton>
+      <div class="burger" data-burger="inativo" #nav>
+      <div class="burger-button" data-filho-burger="inativo" #burgerButton></div>
+      <div class="burger-button" data-filho-burger="inativo" #burgerButton></div>
+      <div class="burger-button" data-filho-burger="inativo" #burgerButton></div>
     </div>
     </div>
     <div class="nome-portfolio">
@@ -19,7 +19,7 @@
     </ul>  
     
 
-    <div class="menu-mobile" data-menu="inativo">
+    <div class="menu-mobile" data-menu="inativo" #menuMobile>
       <div class="menu-container">
         
         <ul class="nav-itens-mobile">
@@ -31,7 +31,7 @@
 
         <div class="barra-gradiente-mobile"></div>
       </div>
-      <div class="sair-menu"></div>
+      <div class="sair-menu" (click)="fecharMenu()"></div>
     </div> 
 
   </div>
