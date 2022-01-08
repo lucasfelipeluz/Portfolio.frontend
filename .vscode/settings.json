@@ -6,4 +6,5 @@
   "**/.DS_Store": true,
   "**/Thumbs.db": true,
   "**.ini":true,
+  "dist":true
 }}
