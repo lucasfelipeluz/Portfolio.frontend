@@ -6,10 +6,6 @@
   Portfólio desenvolvido com o intuito de alocar meus projetos.
 </h4>
 
-<h4 align="center">
-  Esse repositório é o projeto antes da build (compilação), o código compilado está no repositório 'lucasfelipeluz.github.io'.
-  <h4 align="center"><a href="https://github.com/lucasfelipeluz/lucasfelipeluz.github.io/">Clique para ir para o código compilado.</a></h4>
-</h4>
 
 ![Resultado final do projeto](https://user-images.githubusercontent.com/65639478/123846487-cc36f500-d8eb-11eb-8158-559c22c63588.png)
 
