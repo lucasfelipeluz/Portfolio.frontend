@@ -1,7 +1,7 @@
 <header>
   <div class="nav-bar">
     <div class="nav-button" (click)="navMenu()" #navButton>
-      <div class="burger" data-burger="inativo" #nav>
+      <div class="burger" data-burger="inativo">
       <div class="burger-button" data-filho-burger="inativo" #burgerButton></div>
       <div class="burger-button" data-filho-burger="inativo" #burgerButton></div>
       <div class="burger-button" data-filho-burger="inativo" #burgerButton></div>
@@ -12,10 +12,10 @@
     </div>
 
     <ul class="nav-itens">
-       <li class="nav-item"><a href="projetos" data-target="projetos">Projetos</a></li>
-       <li class="nav-item"><a href="conhecimentos" data-target="conhecimentos">Conhecimentos</a></li>
-       <li class="nav-item"><a href="sobreMim" data-target="sobreMim">Sobre mim</a></li>
-       <li class="nav-item"><a href="contato" data-target="contato">Contato</a></li>
+       <li class="nav-item"><a data-target="projetos">Projetos</a></li>
+       <li class="nav-item"><a data-target="conhecimentos">Conhecimentos</a></li>
+       <li class="nav-item"><a data-target="sobreMim">Sobre mim</a></li>
+       <li class="nav-item"><a data-target="contato">Contato</a></li>
     </ul>  
     
 
@@ -23,15 +23,15 @@
       <div class="menu-container">
         
         <ul class="nav-itens-mobile">
-          <li class="nav-item"><a href="projetos" data-target="projetos">Projetos</a></li>
-          <li class="nav-item"><a href="conhecimentos" data-target="conhecimentos">Conhecimentos</a></li>
-          <li class="nav-item"><a href="sobreMim" data-target="sobreMim">Sobre Mim</a></li>
-          <li class="nav-item"><a href="contato" data-target="contato">Fale Comigo</a></li>
+          <li class="nav-item"><a data-target="projetos">Projetos</a></li>
+          <li class="nav-item"><a data-target="conhecimentos">Conhecimentos</a></li>
+          <li class="nav-item"><a data-target="sobreMim">Sobre Mim</a></li>
+          <li class="nav-item"><a data-target="contato">Fale Comigo</a></li>
         </ul>
 
         <div class="barra-gradiente-mobile"></div>
       </div>
-      <div class="sair-menu" (click)="fecharMenu()"></div>
+      <div class="sair-menu" (click)="navMenu()"></div>
     </div> 
 
   </div>

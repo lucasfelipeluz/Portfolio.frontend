@@ -48,6 +48,7 @@ header{
   font-size: 35px;
   display: grid;
   place-items:center;
+  cursor: pointer;
 
   @include desktop(){
     display: none;
@@ -129,6 +130,7 @@ header{
     width: 120px;
 
     a{
+      cursor: pointer;
       height: 100%;
       transition: .5s;
       font-family: $font1;
@@ -227,6 +229,7 @@ header{
 
 
     a{
+      cursor: pointer;
       color: $letras;
       text-decoration: none;
       font-size: 22px;

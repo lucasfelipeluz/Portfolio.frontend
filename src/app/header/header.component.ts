@@ -1,26 +1,27 @@
-import { Component, ElementRef, OnInit, QueryList, ViewChild, ViewChildren } from '@angular/core';
+import { Component, ElementRef, QueryList, ViewChild, ViewChildren } from '@angular/core';
 
 @Component({
   selector: 'header-component',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit{
+export class HeaderComponent{
+  constructor() { }
 
+  
+  //Menu Mobile
+//Pegando as referencias do elementos do template Header
   @ViewChild('navButton') butaoNav: HTMLElement;
   @ViewChild('menuMobile') menuMobile: ElementRef;
   @ViewChildren('burgerButton') burgersButton: QueryList<object>;
   
-  constructor() { }
-  ngOnInit(): void {
-    console.log('oninit')
-  }
 
-  
   private menu = {
     open: false,
   }
 
+//Checando o estado do menu antes de efetuar alguma ação
+//e executando
   navMenu(): void {
     if (this.menu.open === true) {
       this.fecharMenu()
@@ -47,6 +48,7 @@ export class HeaderComponent implements OnInit{
     })
   }
 
-
+  //Links que levam até a section
+  
 
 }
